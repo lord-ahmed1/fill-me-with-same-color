@@ -1,7 +1,7 @@
 body{text-align: center;background-color: #2E0249;}
 .wrapper{
-	width: 500px;
-	height: 500px;
+	width: 800px;
+	height: 800px;
 	border: 1px solid #ccc;
 	border-radius: 50%;
 	position: relative;
