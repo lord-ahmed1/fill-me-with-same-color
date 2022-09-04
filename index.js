@@ -54,7 +54,7 @@ var myFunction = function() {
           }
         })
     setTimeout(myFunction, counter);}
-    else{  if(sector_number<number_of_sectors){$('h1').text('hard luck !!😜😜')
+    else{  if(sector_number<number_of_sectors){$('h1').text('hard luck !!😜😜 refresh to restart')
   $('h1').css('color','blue')}
       else{$('h1').text('genius keep it up 😃🥂👏👏')
     }}
