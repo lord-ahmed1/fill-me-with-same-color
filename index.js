@@ -42,7 +42,7 @@ var myFunction = function() {
               if (new_chosen_color == chosen_color) {
                 CORRECT.play();
                 document.querySelector('.number' + sector_number).removeEventListener('click', checking);
-                sector_number++;    counter /= 1.1;end=0
+                sector_number++;    counter /= 1.08;end=0
               } else if (new_chosen_color !== chosen_color) {
                 WRONG_SOUND.play();
                 document.querySelector('body').style.backgroundColor='#EB1D36';
