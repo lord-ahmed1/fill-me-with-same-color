@@ -1,7 +1,6 @@
 var colors = ['#570A57', '#FF4949', '#F8CB2E','#006778','#F0FFC2','#D3ECA7']
 var sound_changingcolor = new Audio('changing color'+'.mp3');
 $('.fading').animate({opacity:1},5000);
-setTimeout(function(){$('p').text('pick a colour and complete the circle with it')},5000)
 const number_of_sectors = 12;
 const rotation_to_be_added = 360 / number_of_sectors;
 create_tag = ''
